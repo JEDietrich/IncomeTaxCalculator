@@ -47,35 +47,6 @@ export class EmployeeService {
     );
   }
 
-  ///* GET employees whose name contains search term */
-  //searchEmployees(term: string): Observable<Employee[]> {
-  //  if (!term.trim()) {
-  //    // if not search term, return empty employee array.
-  //    return of([]);
-  //  }
-  //  return this.http.get<Employee[]>(`${this.apiUrl}/search?name=${term}`).pipe(
-  //    catchError(this.handleError<Employee[]>('searchEmployees', []))
-  //  );
-  //}
-
-  ////////// Save methods //////////
-
-  ///** POST: add a new employee to the server */
-  //addEmployee(employee: Employee): Observable<Employee> {
-  //  return this.http.post<Employee>(this.apiUrl, employee, this.httpOptions).pipe(
-  //    catchError(this.handleError<Employee>('addEmployee'))
-  //  );
-  //}
-
-  ///** DELETE: delete the employee from the server */
-  //deleteEmployee(id: number): Observable<Employee> {
-  //  const url = `${this.apiUrl}/${id}`;
-
-  //  return this.http.delete<Employee>(url, this.httpOptions).pipe(
-  //    catchError(this.handleError<Employee>('deleteEmployee'))
-  //  );
-  //}
-
   /** PUT: update the employee on the server */
   updateEmployee(employee: Employee): Observable<Employee> {
     return this.http.put<Employee>(`${this.apiUrl}/${employee.id}`, employee, this.httpOptions).pipe(
