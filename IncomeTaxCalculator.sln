@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncomeTaxCalculator.API", "IncomeTaxCalculator.Server\IncomeTaxCalculator.API.csproj", "{633B5909-CA29-469A-B819-BA9097E3E7A0}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "incometaxcalculator.ClientApp", "incometaxcalculator.client\incometaxcalculator.ClientApp.esproj", "{2A5C658F-F944-4B6D-8983-B87CD57EB3C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{633B5909-CA29-469A-B819-BA9097E3E7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633B5909-CA29-469A-B819-BA9097E3E7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633B5909-CA29-469A-B819-BA9097E3E7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633B5909-CA29-469A-B819-BA9097E3E7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5C658F-F944-4B6D-8983-B87CD57EB3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5C658F-F944-4B6D-8983-B87CD57EB3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5C658F-F944-4B6D-8983-B87CD57EB3C5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2A5C658F-F944-4B6D-8983-B87CD57EB3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5C658F-F944-4B6D-8983-B87CD57EB3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5C658F-F944-4B6D-8983-B87CD57EB3C5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36A775D1-22DD-4814-8524-9E518637CB36}
+	EndGlobalSection
+EndGlobal

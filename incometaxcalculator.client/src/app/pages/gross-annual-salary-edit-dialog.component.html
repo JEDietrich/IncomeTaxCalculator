@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>Gross Annual Salary Edit Dialog</h2>
+<div mat-dialog-content>
+  <p>Current Value: {{ data.currentValue }}</p>
+  <mat-form-field>
+    <input matInput type="number" placeholder="New Value" [(ngModel)]="data.newValue">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button mat-button color="primary" (click)="onSave()">Save</button>
+</div>
